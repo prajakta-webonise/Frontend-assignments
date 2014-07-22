@@ -1,0 +1,98 @@
+*{									/*reset css*/
+	margin: 0;
+	padding: 0;
+}
+body								/* set default style*/
+{
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 16px;
+}
+.wrapper							/*set container style*/
+{
+	width: 940px;
+	margin: 0 auto;
+}
+.header								/*set header style*/
+{
+	height: 175px;
+	background: #499bd7;
+}
+.menu
+{
+	height: 60px;
+	background: #d6d6d6;
+}
+h1									/*heading banner*/
+{
+	line-height: 32px;
+	padding-top:75px;
+	font-size: 30px;
+	color: #ffffff;
+	text-align: center;
+ }
+.nav								/*menu navigation*/
+{
+	padding-top:22px ;
+}
+.nav li
+{
+	display: inline;				/*to make navigation horizontal*/
+}
+ 
+.nav a								/*remove underline of anchor tag*/
+{
+	text-decoration: none;
+	color: #333333;
+	padding-right: 10px;
+	
+}
+.content							/*set content style*/
+{
+	height: 462px;
+	background: #ffffff;
+}
+.text									/*justify paragraph*/
+{
+padding-top:30px;
+text-align: justify;
+}
+.textBottom									/*justify paragraph*/
+{
+/*padding-top:30px;*/
+text-align: justify;
+}
+
+.image								/*keep image to left and set margins*/
+{
+	float: left;
+	margin: 30px 10px 2px 0px;
+}
+.footer								/*set footer style*/
+{
+	height: 65px;
+	background-color: #d6d6d6;
+}
+.footerNav							/* footer navigation*/
+{
+	
+	line-height:14px;
+	padding-top: 25px;
+	color: #333333;
+	font-size: 12px;
+}
+.footerNav li
+{
+	display: inline;				/*to make navigation horizontal*/
+}
+.footerNav a							/*remove underline of anchor tag*/
+{
+	text-decoration: none;
+	color: #333333;
+	padding-right: 10px;
+	
+}
+.footerNav li.copyRight				/*place copyright to right*/
+{
+	float: right;
+}
