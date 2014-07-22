@@ -1,0 +1,103 @@
+html, body, div, span, applet, object, iframe,			/* reset css */
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body								/* set default style*/
+{
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 18px;
+}
+.container							/*set container style*/
+{
+	width: 940px;
+	margin: 0 auto;
+}
+.header								/*set header style*/
+{
+	height: 175px;
+	background: #499bd7;
+}
+.menu
+{
+	height: 60px;
+	background: #d6d6d6;
+}
+h1									/*heading banner*/
+{
+	line-height: 125px;
+	padding-top:25px;
+	font-size: 30px;
+	color: #ffffff;
+	text-align: center;
+ }
+.navigation								/*menu navigation*/
+{
+	padding-top:22px ;
+}
+.navigation li
+{
+	display: inline;				/*to make navigation horizontal*/
+}
+ 
+.navigation a								/*remove underline of anchor tag*/
+{
+	text-decoration: none;
+	color: #333333;
+}
+p
+{
+	margin-bottom: 10px;
+}
+.content							/*set content style*/
+{
+	margin: 30px 0px;
+}
+.image								/*keep image to left and set margins*/
+{
+	float: left;
+	margin: 5px 10px 2px 0px;
+}
+.footer								/*set footer style*/
+{
+	height: 65px;
+	background: #d6d6d6;
+	font-size: 12px;
+	color: #333333;
+}
+.footerNavigation							/* footer navigation*/
+{
+
+	padding-top: 23px;
+	float:left;
+}
+.footerNavigation li
+{
+	display: inline;				/*to make navigation horizontal*/
+}
+.footerNavigation a							/*remove underline of anchor tag*/
+{
+	text-decoration: none;
+	color: #333333;
+}
+.copyRight						/*place copyright to right*/
+{
+	padding-top: 23px;	
+	float: right;
+}
