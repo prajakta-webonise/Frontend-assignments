@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>		
+	<head>
+		<title> Html/CSS Webpage </title> 
+		
+		<link rel="stylesheet" type="text/css" href="css/style1.css">
+	</head>
+	<body> 
+		<div class= "header" id="header">
+			<div class = "container"> 
+				<div><img class = "logo" src = "images/logo.png" alt="logo" ></div>
+				<!-- <div><img class = "divider" src = "images/divider.png" alt= "logo"></div> -->
+				<div class="menu" >
+					<ul>
+						<li><img class = "divider" src = "images/divider.png" alt= "logo"> </li>
+						<li class= "menuOption" id="gallery" > <a href="#index.html">THE GALLERY</a> </li>
+						<li><img class = "divider" src = "images/divider.png" alt= "logo"> </li>
+						<li class="menuOption" > <a href="#how.html">HOW IT WORKS</a> </li>
+						<li><img class = "divider" src = "images/divider.png" alt= "logo"> </li>
+						<li class= "menuOption" > <a href="#index.html">HELP</a> </li>
+						<li><img class = "divider" src = "images/divider.png" alt= "logo"> </li>
+						<!-- <li class= "clear" ></li> -->
+					</ul>
+				</div>
+			<div class= "clear"> </div> 
+					
+			</div> 
+		
+		</div>
+		
+		<div class= "contents">
+			<div class = "container"> 
+				<div class="text"> <input type="button" class= "button"> VIEW GALLERY  </div>
+				<div class="pictures"><img class = "picture" src = "images/pictures.png" alt= "pictures"></div>
+			</div>
+		
+		</div>
+		<div class="description"> 
+		<div class = "container"> 
+			<h2>HOW IT WORKS</h2>
+			<div class="image"> <img class = "image1" src = "images/image1.png" alt="logo" ><h3>Add art to your queue online</h3></div>
+			<div class="image"><img class = "image1" src = "images/image2.png" alt="logo" ><h3>Receive art your home in the order you specify</h3></div>
+			<div class="image"><img class = "image1" src = "images/image3.png" alt="logo" ><h3 id="text">Keep the art for as long as you like. Buy only what you love</h3></div>
+			<div class="image"><img class = "image1" src = "images/image4.png" alt="logo" ><h3>Return the art to receive the next piece in your queue</h3></div>
+			
+		</div>
+		</div>
+	
+		
+	</body>
+</html>
