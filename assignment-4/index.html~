@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>		
+	<head>
+		<title> Html/CSS Webpage </title> 
+		
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body> 
+		<div class= "header" id="header">
+			<div class = "container"> 
+				<div><a href="#home.html"><img class = "logo" src = "images/logo.png" alt="logo" ></a></div>
+				<ul class="headerMenu">
+						<li class= "menuOption" id="gallery" > <a class="menu" href="#index.html">THE GALLERY</a> </li>
+						<li class="menuOption" > <a class="menu"href="#how.html">HOW IT WORKS</a> </li>
+						<li class= "menuOption" id="help"> <a href="#index.html">HELP</a> </li> 
+						<li class= "clear" ></li>
+				</ul>
+			</div> 
+		
+		</div>
+		
+		<div class= "contents">
+			<div class = "container"> 
+				<div class="text">
+					<h1>Your Moods Change</h1>
+					<h4>So should the art on your walls!</h4>	
+					<a class= "viewGallery" href="#index.html">VIEW GALLERY</a>
+					<a class= "joinUs" href="#index.html">JOIN NOW</a>
+					<div class="clear" > </div>
+				</div>  
+				<div class="pictures"><img class = "picture" src = "images/pictures.png" alt= "pictures"></div>
+				<div class="clear" > </div>
+			</div>
+		</div>
+		<div class="description"> 
+			<div class = "container"> 
+				<h2>HOW IT WORKS</h2>
+				<ul class="iconMenu">
+					<li class="image"> <img class = "icon" src = "images/image1.png" alt="logo" ><h3>Add art to your queue online</h3></li>
+					<li class="image"><img class = "icon" src = "images/image2.png" alt="logo" ><h3>Receive art your home in the order you specify</h3></li>
+					<li class="image"><img class = "icon" src = "images/image3.png" alt="logo" ><h3 id="text">Keep the art for as long as you like. Buy only what you love</h3></li>
+					<li class="image"><img class = "icon" src = "images/image4.png" alt="logo" ><h3>Return the art to receive the next piece in your queue</h3></li>
+					<li class= "clear" ></li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer">
+			<div class ="container ">
+				<ul class="footerMenu">
+					<li class="footerDecription"><a class="home" href="#index.html">HOME</a> </li>
+					<li class="footerDecription"><a href="#index.html">THE GALLERY</a></li>
+					<li class="footerDecription"><a href="#how.html">HOW IT WORKS</a></li>
+					<li class="footerDecription"><a href="#index.html">HELP</a></li>
+				</ul>
+				<ul class="footerIcon">
+					<li><img class = "socialIcon" src = "images/gplus.png" alt="logo" ></li>
+					<li><img class = "socialIcon" src = "images/pin.png" alt="logo" ></li>
+					<li><img class = "socialIcon" src = "images/twitter.png" alt="logo" ></li>
+					<li><img class = "socialIcon" src = "images/fb.png" alt="logo" ></li>
+					<li class= "clear" ></li> 
+				</ul> 
+				<div class="copyRight">
+					<h6>&copy;2013 Art Forth All Rights Reserved</h6>
+					<ul class="termsService">
+						<li> <a href="#index.html">Terms of service</a> </li>
+						<li> <a href="#how.html">Privacy Policy</a> </li>
+						<li> <a  class ="siteMap" href="#index.html">Site map</a> </li>
+						<li class= "clear" ></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
