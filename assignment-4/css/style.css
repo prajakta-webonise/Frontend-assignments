@@ -1,0 +1,299 @@
+html, body, div, span, applet, object, iframe,			/* reset css */
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body								
+{
+	font-family: Arial, Helvetica, Georgia;
+	font-size: 18px;
+	line-height: 30px;
+	text-decoration:none;
+	}
+.container							
+{
+	width: 940px;
+	margin: 0 auto;
+}
+.header								
+{
+	height: 50px;
+	background: #444444;
+}
+.logoClass
+{
+	float:left;
+	margin:8px 50px 0px 0px;
+}
+
+.logo								
+{
+	float: left;
+}
+.headerMenu 
+{
+    list-style-type: none;     /* to remove bullets*/
+	float:left;
+}
+.menuOption 
+{
+	float: left;
+}
+.headerMenu li a								
+{
+	float:left;
+	font-weight : Bold;
+	text-decoration: none;
+	border-left: 1px solid black;
+	color:#aaaaaa;
+	padding:8px 25px 10px 25px;
+}
+
+.headerMenu li#help a 
+{
+	border-right: 1px solid black;
+}
+
+.headerMenu li.clear
+{
+	clear:both;
+	float:none;
+}
+
+.clear
+{
+	clear:both;
+	float:none;
+}
+.banner
+{
+	height: 486px;
+	background-image: url('../images/Pattern.jpg');
+	background-repeat: repeat;
+}
+
+h1
+{
+	margin:185px 0px 25px 18px;
+	font-size:48px;
+	color:#ffffff;
+}
+h3
+{	margin:0px 0px 0px 18px;
+	font-size: 30px;
+	color:#ffffff;
+}
+h4
+{
+	font-size:20px;
+	padding:10px;
+}
+.viewGallery
+{
+	display:block;
+text-decoration: none;
+	height: 47px;
+	width: 170px;
+	margin:46px 0px 0px 18px;
+	color: #333333;
+	text-align: center;
+	border-radius:3px;
+	background: #f2f2f2;
+	float:left;	
+}
+.joinUs
+{
+	float:left;
+	display:block;
+	text-decoration: none;
+	margin:46px 0px 0px 25px;
+	height: 47px;
+	width: 170px;
+	text-align: center;
+	border-radius:3px;
+	background:#ff9900;
+	color:#ffffff;	
+}
+
+.text
+{
+	float:left;
+	width: 480px;
+	padding-top: 218;
+}	
+.iconMenu
+{
+	list-style-type: none; 
+	
+}
+.pictures
+{
+	float:right;
+	margin:58px 0px 0px 0px;
+}
+h2
+{
+	font-size: 36px;
+	color:#333333;
+	margin-top:65px;
+	text-align:center;
+}
+.iconText
+{
+	margin-top:60px;
+	color:#888888;
+	text-align:center;
+	padding-left:0px;
+}
+.iconMenu .circle
+{
+	float:left;
+	display:block;
+	width: 140px;
+    height: 140px;
+    border-radius: 70px;
+	margin-left:15px;
+	
+
+}
+.iconMenu li
+{
+	float:left;
+	width:170px;
+	margin:77px 30px 0px 30px;
+}
+.iconMenu li.last
+{
+	margin-right:0px;
+}
+.iconMenu #addIcon
+{
+	background:#efefef url('../images/icon1.png') center center no-repeat;
+}
+.iconMenu #homeIcon
+{
+	background:#efefef url('../images/icon2.png') center center no-repeat;
+}
+.iconMenu #viewIcon
+{
+	background:#efefef url('../images/icon3.png') center center no-repeat;
+}
+.iconMenu #returnIcon
+{
+	background:#efefef url('../images/icon4.png') center center no-repeat;
+}
+
+
+.iconMenu li.clear
+{
+	clear:both;
+	float:none;
+//	width:0px;
+}
+
+.footer
+{
+	height:160px;
+	background:#ececec;
+	margin-top:20px;
+}
+.footerMenu
+ {
+    float:left;
+    list-style-type: none;     /* to remove bullets*/
+}
+.footerMenu li
+{
+	float:left;
+	margin:28px 20px 0px 0px;
+	background: #efefef;
+}
+.footerMenu li a.home
+{
+	color:#333333;
+}
+.footerMenu li a 
+{
+	text-decoration:none;
+	font-size:16px;
+	font-weight:Bold;
+	color:#ff9900;
+}
+.footerIcon
+ {
+    list-style-type: none;     /* to remove bullets*/
+	float:right;
+}
+.footerIcon li
+{
+	float:right;
+	margin:28px 5px 0px 0px;
+	background: #888888;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+	text-align:center;
+}
+.footerIcon li.clear
+{
+	clear:both;
+	float:none;
+	width:0px;
+}
+.socialIcon
+{
+	margin:8px 0px 0px 2px;
+}
+h6
+{
+	float:left;
+	color:#aaaaaa;
+	font-weight:Bold;
+	margin-right:50px;
+	font-size:14px;
+}
+
+.termsService 
+{
+    list-style-type: none;     /* to remove bullets*/
+	float:left;
+}
+.termsService li
+{
+	float: left;
+}
+.termsService li a								
+{
+	float:left;
+	font-size:14px;
+	font-weight : Bold;
+	text-decoration: none;
+	border-right: 1px solid #aaaaaa;
+	color:#aaaaaa;
+	padding:0px 20px 0px ;
+}
+.termsService li a.siteMap
+{
+	border-right:none;
+}
+.termsService li.clear
+{
+	clear:both;
+	float:none;
+
+}
