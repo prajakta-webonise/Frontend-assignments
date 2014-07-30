@@ -1,0 +1,568 @@
+html, body, div, span, applet, object, iframe,			/* reset css */
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body								
+{
+	font-family: Arial, Helvetica, Georgia;
+	font-size: 16px;
+	line-height: 40px;
+	text-decoration:none;
+}
+a
+{
+	text-decoration:none;
+}
+ul
+{
+	list-style-type:none;
+}
+
+.container							
+{
+	width: 940px;
+	margin: 0 auto;
+}
+@font-face {
+    font-family: 'oxygenbold';
+    src: url('../fonts/oxygen-bold-webfont.eot');
+    src: url('../fonts/oxygen-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oxygen-bold-webfont.woff') format('woff'),
+         url('../fonts/oxygen-bold-webfont.ttf') format('truetype'),
+         url('../fonts/oxygen-bold-webfont.svg#oxygenbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'MinionProMedium';
+    src: url('../fonts/minionpro-medium.eot');
+    src: url('../fonts/minionpro-medium.eot') format('embedded-opentype'),
+         url('../fonts/minionpro-medium.woff') format('woff'),
+         url('../fonts/minionpro-medium.ttf') format('truetype'),
+         url('../fonts/minionpro-medium.svg#MinionProMedium') format('svg');
+}
+@font-face {
+    font-family: 'oxygenregular';
+    src: url('../fonts/oxygen-webfont.eot');
+    src: url('../fonts/oxygen-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oxygen-webfont.woff') format('woff'),
+         url('../fonts/oxygen-webfont.ttf') format('truetype'),
+         url('../fonts/oxygen-webfont.svg#oxygenregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'MinionProRegular';
+    src: url('../fonts/minionpro-regular.eot');
+    src: url('../fonts/minionpro-regular.eot') format('embedded-opentype'),
+         url('../fonts/minionpro-regular.woff') format('woff'),
+         url('../fonts/minionpro-regular.ttf') format('truetype'),
+         url('../fonts/minionpro-regular.svg#MinionProRegular') format('svg');
+}
+
+.header
+{
+	//margin-top:5px;
+}
+.logoClass
+{
+	float:left;
+	height:45px;
+	width:114px;
+	background: #ffffff url('../images/logo.png') center no-repeat;
+	margin:5px 0px;
+}
+.socialIcons
+{
+	float:right;
+	margin-top:15px;
+}
+.socialIcons li
+{
+	float:left;
+	//height:25px;
+//width:25px;
+//border-radius:50%;
+	margin-right:5px;
+}
+.socialIcons li.clear
+{
+	clear:both;
+	float:none;
+	width:0px;
+	height:0px;
+	//background-color:#42aae4;
+	
+}
+
+.socialIcons a
+{
+display:block;
+float:left;
+height:25px;
+width:25px;
+border-radius:50%;
+
+}
+.socialIcons a.fb
+{
+
+background:#42aae4 url('../images/fb.png') center no-repeat;
+
+}
+.socialIcons a.twitter
+{
+background:#42aae4 url('../images/twitter.png') center no-repeat;
+}
+.socialIcons a.pin
+{
+background:#42aae4 url('../images/pin.png') center no-repeat;
+}
+.socialIcons a.gplus
+{
+background:#42aae4 url('../images/gplus.png') center no-repeat;
+}
+
+.headerNavigation
+{
+	float:right;
+	margin:10px 40px 0px 0px;
+}
+.headerNavigation li
+{
+	float:left;
+	margin-right:25px;
+}
+.headerNavigation li.last
+{
+	margin-right:0px;
+}
+
+.headerNavigation  a
+{
+	color:#42aae4;
+	font-family: 'oxygenbold';
+	font-size:14px;
+	line-height:16px;
+	font-weight:Bold;
+	//font-family: 'open_sanssemibold';
+}
+.clear
+{
+	clear:both;
+	float:none;
+}
+.banner
+{
+	height:545px;
+	//background-position:;
+	background: #b8d3f0 url('../images/banner.jpg') center no-repeat;
+	//background-repeat:;
+}
+.text
+{
+	width:347px;
+	float:right;
+	margin-top:80px;
+}
+.h1
+{
+	
+	font-family: 'oxygenbold';
+	line-height:36px;
+	font-size:44px;
+	color:#000000;
+	margin-bottom:25px;
+}
+.bookTickets
+{
+	font-family: 'MinionProMedium';
+	font-size:22px;
+	line-height:20px;
+	color:#000000;
+}
+.tabs
+{
+	background-color:#42aae4;
+	padding:20px 0px;
+	//height:100px;
+}
+.tab
+{
+	margin-right: -20px; 
+}
+.tab li
+{
+	float: left;
+	width: 216px;	
+	font-size: 22px;
+	//line-height:56px;
+	margin-right: 20px;
+	background: url('../images/arrow.png') no-repeat 95% center;
+	border: 2px solid #ffffff;
+	border-radius:5px;
+}
+.tab li.last
+{
+	margin-right:0px;
+}
+.tab a
+{
+	padding:7px 13px 8px 19px;
+	
+	display: block;
+	color:#222222;
+	
+}
+.tabs .tabHeadings
+{
+
+	font-family: 'oxygenregular';
+	
+	color:#ffffff;
+	padding-right:50px;
+}
+.h3
+{
+	float:left;
+	font-family: 'oxygenregular';
+	font-size:22px;
+	line-height:28px;
+	color:#ffffff;
+	//padding:14px 0px 14px 20px;
+}
+/*.tab .arrow
+{
+	display:block;
+	float:right;
+	width:25px;
+	height:25px;
+	background: url('../images/arrow.png') no-repeat;
+}*/
+/*.tab a#last
+{
+	margin-right:0px;
+}*/
+.tab li.clear
+{
+	clear:both;
+	float:none;
+	width:0px;
+	height:0px;
+	margin:0px;
+	border:0px;
+	padding:0px;
+}
+.events
+{
+	padding-top:65px;
+	padding-bottom:70px;
+}
+.h2
+{
+	font-family: 'oxygenbold';
+	font-size:40px;
+	line-height:28px;
+	color:#42aae4;
+	margin-bottom:20px;
+}
+/*.event .im
+{
+	width:300px;
+	height:200px;
+}*/
+.event li
+{
+	float:left;
+	width:300px;
+	margin-right:20px;
+	//background:#42aae4;
+	//position:relative;
+	color:#ffffff;
+}
+.event li.last
+{
+	margin-right:0px;
+}
+.event li.clear
+{
+	clear:both;
+	float:none;
+	width:0px;
+	margin:0px;
+}
+.event .image
+{
+	width:300px;
+	height:200px;
+}
+.eventText
+{
+	//width:245px;
+	background:#42aae4;
+	padding: 0px 40px 19px 15px;
+}
+.event .h4
+{
+	//padding-left:15px;
+	font-family: 'oxygenbold';
+	font-size:18px;
+	line-height:20px;
+	margin-bottom:15px;
+}
+.event .date
+{
+	font-family: 'oxygenregular';
+	font-size:11px;
+	line-height:13px;
+	//padding-left:15px;
+}
+/*.event .h6
+{
+	font-family: 'oxygenregular';
+	font-size:11px;
+	line-height:13px;
+	//padding-left:15px;
+}*/
+.event p
+{
+	font-family: 'MinionProMedium';
+	font-size:14px;
+	line-height:16px;
+	//padding:0px 0px 20px 15px
+}
+.footer
+{
+	padding:29px 0px 100px 0px;
+	background:#444444;
+}
+.footerTop
+{
+	//float:left;
+	//width:166px;
+	font-family: 'MinionProRegular';
+	font-size:14px;
+	line-height:20px;
+	margin-bottom:30px;
+	color:#ffffff;
+}
+.innerUl
+{
+	font-family: 'MinionProRegular';
+	font-size:14px;
+	line-height:20px;
+	//margin-bottom:30px;
+	color:#ffffff;
+	font-weight:Bold;
+	//margin-top:30px;
+}
+/*.footerTop a.heading
+{
+	float:left;
+	width:166px;
+	padding-bottom:10px;
+}*/
+.top
+{
+margin-bottom:30px;
+float:left;
+width:166px;
+margin-right:20px;
+
+}
+.top .h6
+{
+font-family: 'oxygenbold';
+padding-left:5px;
+padding-bottom:10px;
+font-size:14px;
+line-height:14px;
+color:#ffffff;
+}
+.footerTop
+{
+	
+}
+.footerTop li
+{
+//float:left;
+//width:166px;
+//margin-right:20px;
+
+}
+.footerTop a
+{
+	/*font-family: 'MinionProRegular';
+	font-size:14px;
+	line-height:20px;*/
+	color:#ffffff;
+}
+.innerUl a
+{
+	
+	color:#ffffff;
+}
+.footerTop li.clear
+{
+	clear:both;
+	float:none;
+	width:0px;
+	height:0px;
+}
+.footerBottom
+{
+	text-align:center;
+border-top-style:solid;
+	border-top-width:1px;
+	border-top-color:#dadada;
+	
+}
+.footerNav
+{
+	display: inline-block;
+	margin-top:15px;
+}
+.footerNav li
+{
+	float:left;
+	border-right: 1px solid #dadada;
+	line-height:12px;
+}
+.footerNav li.last
+{
+	border:none;
+}
+.footerNav a
+{
+	float:left;
+	font-family: 'oxygenbold';
+	font-size:12px;
+	line-height:20px;
+	color:#dadada;
+	padding:0px 5px;
+}
+.footerNav li.clear
+{
+	clear:both;
+	float:none;
+	width:0px;
+	height:0px;
+	border:0px;
+}
+.copyRight
+{
+	font-family: 'MinionProRegular';
+	font-size:14px;
+	line-height:20px;
+	color:#aaaaaa;
+	display:block;
+}
+/*
+.footerTop2
+{
+	float:left;
+}
+.footerTop2 a.heading
+{
+	float:left;
+	width:186px;
+}
+.footerTop 2.h6
+{
+padding-left:5px;
+font-size:14px;
+line-height:14px;
+}
+.footerTop2 a
+{
+	font-size:14px;
+	line-height:14px;
+	color:#ffffff;
+}
+.footerTop3
+{
+	float:left;
+}
+.footerTop3 a.heading
+{
+	float:left;
+	width:186px;
+}
+.footerTop3 .h6
+{
+padding-left:5px;
+font-size:14px;
+line-height:14px;
+}
+.footerTop3 a
+{
+	font-size:14px;
+	line-height:14px;
+	color:#ffffff;
+}
+.footerTop4
+{
+	float:left;
+}
+.footerTop4 a.heading
+{
+	float:left;
+	width:186px;
+}
+.footerTop4 .h6
+{
+padding-left:5px;
+font-size:14px;
+line-height:14px;
+}
+.footerTop4 a
+{
+	font-size:14px;
+	line-height:14px;
+	color:#ffffff;
+}
+.footerTop5
+{
+	float:left;
+}
+.footerTop5 a.heading
+{
+	float:left;
+	width:186px;
+}
+.footerTop5 .h6
+{
+padding-left:5px;
+font-size:14px;
+line-height:14px;
+}
+.footerTop5 a
+{
+	font-size:14px;
+	line-height:14px;
+	color:#ffffff;
+}*/
+/*.footerNav a 
+{
+	font-size:14px;
+	color:#ffffff;
+	line-height:20px;
+}*/
