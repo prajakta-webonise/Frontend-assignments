@@ -1,0 +1,725 @@
+html, body, div, span, applet, object, iframe,			/* reset css */
+h1, h2, h3, h4, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body								
+{
+	font-family: Arial, Helvetica, Georgia;
+	font-size: 16px;
+	line-height: 40px;
+	text-decoration:none;
+}
+a
+{
+	text-decoration:none;
+}
+ul
+{
+	list-style-type:none;
+}
+
+.container							
+{
+	width: 940px;
+	margin: 0 auto;
+}
+.header
+{
+	background: url('../images/headerGradient.jpg') center repeat-x;
+}
+.logoClass
+{
+	float:left;
+	height:50px;
+	width:188px;
+	background: #ffffff url('../images/logo.png') center no-repeat;
+	margin:30px 0px;
+}
+.header img
+{
+	margin:6px 0px 0px 23px;;
+}
+.headerNavigation
+{
+	//height:46px;
+	background: url('../images/navigationGradient.jpg') center repeat-x;
+	padding:3px 0px;
+}
+.headerNavigation a.activeClass
+{
+	float:left;
+	background:#000000;
+	font-size:16px;
+	line-height:24px;
+	color:#ffffff;
+	padding:6px 5px 6px 5px;
+	border-radius:3px;
+	margin-right:15px;
+}
+.headerNavigation ul
+{
+float:left;
+}
+.headerNavigation ul li
+{
+	float:left;
+	margin-right:5px;
+	
+}
+.headerNavigation ul li.last
+{
+	margin-right:0px;
+}
+.headerNavigation ul a
+{
+	font-size:16px;
+	line-height:24px;
+	color:#660000;
+	padding:6px 10px 6px 4px;
+	
+	
+}
+.headerNavigation ul li span
+{
+	display:inline-block;
+	width:5px;
+	height:13px;
+	padding-left:5px;
+	background-image:url('../images/downArrow.png');
+	background-repeat:no-repeat;
+	background-position:right;
+}
+.headerNavigation ul a:hover
+{
+	background-color:#bb0000;
+	border:1px solid #990000;
+	border-radius:3px;
+	
+}
+/*.headerNavigation ul a
+{
+	//background: url('../images/downArrow.png');
+}*/
+.searchCar
+{
+padding:20px 0px 10px 0px;
+border:1px solid #dddddd;
+
+}
+.searchCarLeft
+{
+float:left;
+width:350px;
+margin-right:10px;
+}
+.findCar
+{
+	
+	border-top-right-radius:7px;
+	border-top-left-radius:7px;
+	border:1px solid #dddddd;
+	background:#ffffee;
+	padding:20px 0px 10px 15px;
+	
+}
+.findCar h3
+{
+	font-family:'Arial';
+	font-size:24px;
+	line-height:24px;
+	color:#555555;
+	margin-bottom:5px;
+}
+.view
+{
+	font-family:'Arial';
+	font-size:12px;
+	line-height:16px;
+	color:#777777;
+	display:block;
+}
+.findCar .budget
+{
+	font-family:'Arial';
+	font-size:14px;
+	line-height:24px;
+	color:#555555;
+	margin-right:100px;
+	//display:inline-block;
+}
+.findCar .range
+{
+	font-family:'Arial';
+	font-size:12px;
+	line-height:16px;
+	color:#777777;
+	//display:inline-block;
+}
+select
+{
+	font-family:'Arial';
+	font-size:12px;
+	line-height:24px;
+	color:#999999;
+	width:93px;
+	padding: 5px 0px 5px 3px;
+	margin-right:2px;
+	float:left;
+}
+.findCar a
+{
+	
+	//height:18px;
+	//width:18px;
+	//float:left;
+	padding: 9px 13px 1px 13px;
+	background: #dd0000 url('../images/findCarIcon.png') center no-repeat;
+}
+.rangeBar
+{
+	float:left;
+	width:281px;
+	height:12px;
+	border:1px solid #cccccc;
+	background-color:#ffffff;
+	margin:10px 2px 0px 0px;
+	//position:relative;
+	
+}
+.leftRange
+{
+	//float:left;
+	height:25px;
+	background:url('../images/leftRange.png') left no-repeat;
+	margin-left:29px;
+	//position:absolute;
+//	right:20px;
+}
+.rightRange
+{
+	//float:left;
+	height:25px;
+	background:url('../images/rightRange.png') left no-repeat;
+	margin-left:59px;
+	//position:absolute;
+//	right:20px;
+}
+.findUsedCar
+{
+	//width:350px;
+	border-bottom-right-radius:7px;
+	border-bottom-left-radius:7px;
+	border:1px solid #eeeeee;
+	background:#f5f5f5;
+	padding:10px 0px 20px 15px;
+	
+}
+.findUsedCar h3
+{
+	font-family:'Arial';
+	font-size:16px;
+	line-height:24px;
+	color:#555555;
+	margin-bottom:5px;
+}
+.selectUsedCar
+{
+	width:281px;
+}
+.findUsedCar a
+{
+	
+	//height:18px;
+	//width:18px;
+	//float:left;
+	padding: 9px 13px 1px 13px;
+	background: #000000 url('../images/usedCarIcon.png') center no-repeat;
+}
+.searchCarRight
+{
+float:left;
+width:580px;
+}
+.top
+{
+	//width:580px;
+	//float:left;
+	border:1px solid #eeeeee;
+	background:#f5f5f5;
+	border-top-right-radius:7px;
+	border-top-left-radius:7px;
+	padding:10px 15px;
+	margin-bottom:10px;
+}
+.top .image
+{
+	float:left;
+	margin-right:10px
+}
+.sellCar
+{
+	width:241px;
+	float:left;
+	margin-right:25px
+
+}
+.soldCars
+{
+	float:left;
+	width:215px;
+}
+.soldCars span
+{
+	font-family:'Arial';
+	font-size:14px;
+	line-height:24px;
+	color:#999999;
+	display:block;
+}
+.soldCars select
+{
+	width:214px;
+}
+.searchCarRight .clear
+{
+	clear:both;
+	float:none;
+	padding:0px;
+	border:none;
+}
+/*top img
+{
+	float:left;
+}*/
+.top h3
+{
+	font-family:'Arial';
+	font-size:16px;
+	line-height:24px;
+	color:#555555;
+	margin-bottom:5px;
+	
+}
+.getCar
+{
+	width:245;
+	float:left;
+	margin-right:20px;
+	padding:20px 0px 20px 15px;
+}
+.getCar h3
+{
+	font-family:'Arial';
+	font-size:24px;
+	line-height:24px;
+	color:#555555;
+	margin-bottom:5px;
+}
+.getCar ul
+{
+	margin-top:20px;
+}
+.getCar  li
+{
+	margin-bottom:10px;
+}
+.getCar li.last
+{
+	margin-bottom:0px;
+}
+.getCar a
+{
+	font-family:'Arial';
+	font-size:12px;
+	line-height:16px;
+	color:#dd0000;
+	border-radius:7px;
+	border:1px solid #dddddd;
+	background:url('../images/getCarArrow.png') 97% no-repeat;
+	
+	//width:11px;
+	//height:16px;
+	display:block;
+	padding:11px 5px;
+}
+/*.getCar .text
+{
+	float:left;
+}*/
+/*.getCar .getCarArrow
+{
+	
+	//float:right;
+	height:16px;
+	width:11px;
+	
+	padding-left:26px; 
+}*/
+.toyotaAd
+{
+	float:left;
+}
+.clear
+{
+	clear:both;
+	float:none;
+}
+.newsUpdates
+{
+	padding:20px 0px 20px 0px;
+border-bottom:1px solid #dddddd;
+}
+.news
+{
+	width:341px;
+	float:left;
+	margin-right:10px;
+	
+}
+.news h4
+{
+	font-family:'Arial';
+	font-size:16px;
+	line-height:24px;
+	color:#dd0000;
+	padding-bottom:5px;
+	border-bottom:1px solid #dddddd;
+	
+}
+.news ul li
+{
+border-bottom:1px solid #eeeeee;
+padding: 10px 0px;
+}
+.news ul li a
+{
+	font-family:'Arial';
+	font-size:12px;
+	line-height:16px;
+	color:#000000;
+	display: block;
+
+}
+.news span
+{
+	font-family:'Arial';
+	font-size:12px;
+	line-height:16px;
+	color:#cccccc;
+	display:block;
+}
+.newsRight
+{
+	float:left;
+	width:588px;
+}
+.askExpert
+{
+	//float:left;
+	//width:580px;
+}
+.askExpert ul
+{
+	//float:left;
+	//width:280px;
+	//width:280px;
+	
+}
+.askExpert li
+{
+	float:left;
+	margin-right:20px;
+}
+.askExpert li.clear
+{
+	clear:both;
+	float:none;
+	margin:0px;
+	width:0px;
+	
+}
+.askExpert li.last
+{
+	margin-right:0px;
+}
+.askExpert a
+{
+	width:268px;
+	font-family:'Arial';
+	font-size:16px;
+	line-height:24px;
+	color:#dd0000;
+	border:1px solid #dddddd;
+	border-radius:7px;
+	display:block;
+	padding:11px 0px 11px 10px;
+}
+.askExpert a span
+{
+font-family:'Arial';
+	font-size:12px;
+	line-height:16px;
+	color:#cccccc;
+	display:block;
+}
+.tabs
+{
+	float:left;
+	width:580px;
+	margin-top:20px;
+	padding-bottom:10px;
+	border-bottom:1px solid #dddddd;
+}
+.expertReview
+{
+	float:left;
+	font-family:'Arial';
+	font-size:16px;
+	line-height:24px;
+	color:#555555;
+	margin-right:30px;
+}
+.userReview
+{
+	float:left;
+	font-family:'Arial';
+	font-size:16px;
+	line-height:24px;
+	color:#dd0000;
+}
+.expertTab
+{
+	float:left;
+}
+.expertTab li
+{
+	border-bottom:1px solid #dddddd;
+	padding-top:5px;
+}
+.expertTab h4
+{
+font-family:'Arial';
+	font-size:12px;
+	line-height:16px;
+	color:#dd0000;
+}
+.expertTab span
+{
+font-family:'Arial';
+	font-size:12px;
+	line-height:16px;
+	color:#cccccc;
+	
+}
+.expertTab a
+{
+font-family:'Arial';
+	font-size:12px;
+	line-height:16px;
+	color:#000000;
+	//float:left;
+}
+.events
+{
+	//height:634px;
+	//background: url('../images/footerGradient.jpg') center repeat-x;
+	padding-top:27px;
+	padding-bottom:20px;
+	background:#ffffff;
+	//padding-bottom:344px;
+}
+.event
+{
+	width:201px;
+	float:left;
+	margin-right:10px;
+	
+}
+.events #last
+{
+	margin-right:15px;
+}
+.event h4
+{
+	font-family:'Arial';
+	font-size:14px;
+	line-height:24px;
+	color:#dd0000;
+	padding-bottom:5px;
+	border-bottom:1px solid #dddddd;
+	
+}
+.event ul
+{
+	width:201px;
+	//margin-right:10px;
+	//float:left;
+}
+/*.event ul.last
+{
+	margin-right:0px;
+}*/
+.event ul li
+{
+border-bottom:1px solid #eeeeee;
+}
+.event ul li a
+{
+	font-family:'Arial';
+	font-size:12px;
+	line-height:16px;
+	color:#000000;
+	
+
+}
+.displayAd
+{
+	//width:300px;
+	//height:250px;
+	float:left;
+	border:1px solid #dddddd;
+	
+	//font-family:'Arial';
+	font-size:12px;
+	line-height:18px;
+	color:#000000;
+	text-align:center;
+	padding:106px 65px 106px 66px;
+	
+}
+.footer
+{
+	//height:634px;
+	background: url('../images/footerGradient.jpg') center repeat-x;
+	padding-top:27px;
+	//padding-bottom:344px;
+}
+.footerLeft
+{
+	width:626px;
+	float:left;
+	margin-right:10px;
+	margin-bottom:15px;
+	}
+.footerLeft h4
+{
+	font-family:'Arial';
+	font-size:14px;
+	line-height:24px;
+	color:#555555;
+	padding-bottom:5px;
+	border-bottom:1px solid #cccccc;
+
+}
+.footerLeft ul
+{
+	width:202px;
+	margin-right:10px;
+	float:left;
+}
+.footerLeft ul.last
+{
+	margin-right:0px;
+}
+.footerLeft ul li
+{
+border-bottom:1px solid #dddddd;
+}
+.footerLeft ul li a
+{
+	font-family:'Arial';
+	font-size:12px;
+	line-height:16px;
+	color:#000000;
+	
+
+}
+.footerRight
+{
+	width:304px;
+	float:left;
+}
+.footerRight h4
+{
+	font-family:'Arial';
+	font-size:14px;
+	line-height:24px;
+	color:#555555;
+	padding-bottom:5px;
+	border-bottom:1px solid #cccccc;
+
+}
+.footerRight ul
+{
+	width:304px;
+	margin-right:10px;
+	float:left;
+}
+/*.footerRight ul.last
+{
+	margin-right:0px;
+}*/
+.footerRight ul li
+{
+border-bottom:1px solid #dddddd;
+}
+.footerRight ul li a
+{
+	font-family:'Arial';
+	font-size:12px;
+	line-height:16px;
+	color:#000000;
+	
+}
+.footer span
+{
+	display:block;
+	font-family:'Arial';
+	font-size:12px;
+	line-height:16px;
+	color:#777777;
+	float:left;
+	margin-right:10px;
+}
+.footerNavigation
+{
+float:left;
+}
+.footerNavigation li
+{
+	float:left;
+}
+.footerNavigation a
+{
+font-family:'Arial';
+	font-size:12px;
+	line-height:16px;
+	color:#777777;
+	border-right:1px solid #777777;
+	padding:0px 5px;
+}
+.footerNavigation a.first
+{
+	padding-left:0px;
+}
+.footerNavigation a.last
+{
+ border:none;
+ padding-right:0px;
+}
